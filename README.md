@@ -1,25 +1,27 @@
-# Practical-task-2.-Factorial-Calculation
+# Factorial-Calculation
 
-Цей проект реалізує обчислення факторіалів чисел з використанням `ConcurrentHashMap` та `Callable` в Java. Він демонструє, як можна паралельно обчислювати факторіали і зберігати результати в потокобезпечній мапі.
+This project implements the calculation of factorials of numbers using ConcurrentHashMap and Callable in Java. It demonstrates multithreaded programming and parallel calculations.
 
-## Опис
+## Description
 
-Програма обчислює факторіали чисел від 1 до 5 в паралельних потоках. Використовується `ExecutorService` для управління потоками та `Future` для збору результатів. У проекті також реалізовано перевірку скасування завдань за допомогою методу `isCancelled()`.
+The program calculates the factorials of numbers from 1 to 5 in parallel threads. ExecutorService is used for thread management and Callable for asynchronous calculations.
 
-## Використання
+## Usage
 
-1.	Скомпілюйте проект:
-    ```bash
+1. Compile the project:
+   ```bash
     javac FactorialCalculator.java
+    ```
 
-2.	Запустіть програму:
+3. Run the program:
     ```bash
     java FactorialCalculator
+    ```
 
-Вимоги
+Requirements
 
-	•	Java 8 або новіша версія
+- Java 8 or newer
 
-Структура проекту
+Project structure
 
-	•	FactorialCalculator.java: основний файл з реалізацією обчислення факторіалів.
+- FactorialCalculator.java: the main file with the implementation of factorial calculation.
